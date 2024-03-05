@@ -21,6 +21,7 @@ class CleanupUnusedProductMedia extends Command
 {
     private $resource;
     private $filesystem;
+    private $questionHelper;
 
     public function __construct(
         Filesystem $filesystem,
